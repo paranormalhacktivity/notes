@@ -93,11 +93,16 @@ vim ~/.vimrc
 	- docker so that we can develop in a controlled environment.
 	- rofi as an alternative to the dmenu application launcher.
 	- which, because it's handy to know where binary files are located.
-	- gnupg because we need gpg to setup pass
+	- gnupg because we need gpg to setup pass.
 	- pass as a super clutch manager that can be integrated with qutebrowser.
 	- python-tldextract so that pass integrates with qutebrowser.
+	- docker-compose because we want to orchestrate our docker containers.
 ```bash
 sudo pacman -S neofetch docker rofi which gnupg pass python-tldextract
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 12. To setup pass we need to generate a gpg key, but the Kitty Terminal doesn't
