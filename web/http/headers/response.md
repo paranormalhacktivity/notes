@@ -5,6 +5,7 @@ Response headers are used exclusively in HTTP responses. Certain response header
 provide more context about the response.
 
 ## Examples
+```
 ------------------------------------------------------------------------------------
 | Header     | Example               | Description                                 |
 ------------------------------------------------------------------------------------
@@ -18,3 +19,4 @@ provide more context about the response.
 | WWW-       | WWW-Authenticate:     | Notifies the client about the type of       |
 | Auth...    | BASIC realm="localhost| authentication required for resource        |
 ------------------------------------------------------------------------------------
+```

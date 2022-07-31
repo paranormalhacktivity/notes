@@ -56,6 +56,7 @@ Testing is often done through an authenticated and unauthenticated perspective, 
 to cover all possible attack scenarios.
 
 ### Common attacks and their real world application
+```
 -------------------------------------------------------------------------------
 | Attack           | Scenario
 -------------------------------------------------------------------------------
@@ -80,3 +81,4 @@ to cover all possible attack scenarios.
 |                  | privilege escalation when registering. i.e. changing the |
 |                  | role_id params to something else.
 -------------------------------------------------------------------------------
+```

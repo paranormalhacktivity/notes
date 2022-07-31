@@ -5,6 +5,7 @@ General header are contextual headers used to describe the message rather than
 its contents.
 
 ## Examples
+```
 ------------------------------------------------------------------------------------
 | Header     | Example               | Description                                 |
 ------------------------------------------------------------------------------------
@@ -14,3 +15,4 @@ its contents.
 | Connection | Connection: close     | Dictates whether connection should stay     |
 |            |                       | alive after the request finishes.           |
 ------------------------------------------------------------------------------------
+```

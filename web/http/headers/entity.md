@@ -5,6 +5,7 @@ Entity headers are common to both requests and responses. Used to describe the c
 transferred by a message. Usually found in responses and POST or PUT requests.
 
 ## Examples
+```
 ------------------------------------------------------------------------------------
 | Header     | Example               | Description                                 |
 ------------------------------------------------------------------------------------
@@ -24,3 +25,4 @@ transferred by a message. Usually found in responses and POST or PUT requests.
 | Encoding   |                       | before being passed. The specifies the      |
 |            |                       | the encoding used.                          |
 -----------------------------------------------------------------------------------
+```

@@ -4,6 +4,7 @@
 HTTP status codes are used to tell the client the status of their request.
 
 ## Code categories
+```
 -------------------------------------------------------------------------------
 | Type     | Description                                                      |
 -------------------------------------------------------------------------------
@@ -18,5 +19,6 @@ HTTP status codes are used to tell the client the status of their request.
 -------------------------------------------------------------------------------
 | 5xx      | Returned when their is some problem with HTTP server.            |
 -------------------------------------------------------------------------------
+```
 
 ## TODO: Add individual status codes and their description.

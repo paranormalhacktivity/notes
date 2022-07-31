@@ -6,6 +6,7 @@ based attacks. They are a class of response headers used to
 specify certain rules and policies to be followed by the browser.
 
 ## Examples
+```
 ------------------------------------------------------------------------------------
 | Header     | Example               | Description                                 |
 ------------------------------------------------------------------------------------
@@ -23,3 +24,4 @@ specify certain rules and policies to be followed by the browser.
 |            |                       | in avoiding sensitive URLs and information  |
 |            |                       | while browsing the site.
 ------------------------------------------------------------------------------------
+```

@@ -5,6 +5,7 @@ Request headers are used exclusively in HTTP requests. They do not relate to the
 content of the message.
 
 ## Examples
+```
 ------------------------------------------------------------------------------------
 | Header     | Example               | Description                                 |
 ------------------------------------------------------------------------------------
@@ -29,3 +30,4 @@ content of the message.
 |            |                       | is storde client-side and retrieved by      |
 |            |                       | server per request                          |
 ------------------------------------------------------------------------------------
+```
