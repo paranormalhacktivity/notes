@@ -5,6 +5,7 @@ The HTTP methods help to communicate with the browser. They are used to tell the
 server how to process the request that is sent and how to reply.
 
 ## Methods
+```
 -------------------------------------------------------------------------------
 | Method     | Description                                                    |
 -------------------------------------------------------------------------------
@@ -29,6 +30,7 @@ server how to process the request that is sent and how to reply.
 | PATCH      | Applies partial modification to the resource at the specified  |
 |            | location.                                                      |
 -------------------------------------------------------------------------------
+```
 
 
 ### GET requests
