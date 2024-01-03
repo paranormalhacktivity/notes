@@ -27,7 +27,7 @@ red     blue     yellow
 2        1         3
 ```
 
-Next, you would go through the counting array and put out the toy cars in the order of the 
+Next, you would go through the counting array and put out the toy cars in the order of the
 colors. For example, if you go through the array in this order: red, blue, yellow, the your
 toy cars would be sorted like this:
 

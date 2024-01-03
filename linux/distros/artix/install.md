@@ -29,7 +29,7 @@ the installation process is extremely similar.
 10. Format the partitions by doing the following from terminal
 ```bash
 mkfs.ext4 -L ROOT /dev/sda1
-mkfs.fat -F /dev/sda2
+mkfs.fat -F32 /dev/sda2
 fatlabel /dev/sda2 BOOT
 mkfs.ext4 -L HOME /dev/sda4
 mkswap -L SWAP /dev/sda3
@@ -59,8 +59,9 @@ exit
 14. Install Artix
 ```bash
 basestrap /mnt base base-devel s6-base elogind-s6  # Install basic firmwares(pt. 1)
-basestrap linux linux-firmware					   # Install basic firmwares(pt. 2)
-genfstab -U /mnt >> /mnt/etc/fstab				   # Not entirely sure what this does but I know it's important
+basestrap /mnt linux linux-firmware					   # Install basic firmwares(pt. 2)
+fstabgen -U /mnt >> /mnt/etc/fstab				   # Not entirely sure what this does but I know it's important
+artix-chroot /mnt
 ```
 
 15. Install Text Editior
@@ -78,13 +79,13 @@ vim /etc/locale.conf
 ```
 ...once inside locale.conf, add the following
 ```
-export LANG="us_EN.UTF-8"
+export LANG="en_US.UTF-8"
 export LC_COLLATE="C"
 ```
 
 17. Install Bootloader
 ```bash
-pacman -S grub osprober efibootmgr
+pacman -S grub os-prober efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
@@ -110,7 +111,7 @@ hackpad
 
 21. Install DHCP client
 ```bash
-pacman -S dhscpcd dhclient
+pacman -S dhcpcd dhclient
 ```
 
 22. Install Connman for internet connectivity
@@ -157,7 +158,7 @@ sudo pacman -S git python qutebrowser
 
 29. Install a terminal emulator. This is for kitty.
 ```bash
-curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin 
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 sudo ln -sfn ~/.local/kitty.app/bin/kitty /usr/bin/kitty
 ```
 
