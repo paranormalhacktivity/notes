@@ -25,7 +25,7 @@ over time.
 affecting its price.
 
 ## Return Components
-- Capital Gains: Profit earned from the increas in the value of an investment
+- Capital Gains: Profit earned from the increase in the value of an investment
 
 - Dividends: Payments made by companies to shareholders out of their profits.
 
