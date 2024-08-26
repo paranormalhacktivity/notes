@@ -63,7 +63,7 @@ associated with developing and launching an app.
 - Delivers software applications over the internet, on a subscription basis.
 - Examples: Google Workspace, Salesforce
 
-## Practical Exampl: AWS Services
+## Practical Example: AWS Services
 To put these concepts into perspective, let's look at how AWS implements these models.
 
 - AWS EC2(Elastic Compute Cloud): An example of IaaS, providing resizable compute
