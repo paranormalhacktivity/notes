@@ -15,7 +15,7 @@ Euclidian algorithm.
 
 ### Euclidean Algorithm
 It's an efficient method for finding the GCD of two numbers by repeatedly applying
-the division algorith. The algorithm involves dividing the larger number by the smaller
+the division algorithm. The algorithm involves dividing the larger number by the smaller
 number and replacing the larger number with the remainder until the remainder is zero.
 The last nonzero remainder is the GCD.
 
